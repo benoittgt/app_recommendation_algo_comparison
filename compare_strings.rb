@@ -2,6 +2,8 @@ require 'terminal-table'
 require_relative 'comparison_algorithm'
 
 words_list = [
+  { word_a: 'Twitter', word_b: 'twitter' },
+  { word_a: 'chien', word_b: 'niche' },
   { word_a: 'twitter v1', word_b: 'Twitter v2' },
   { word_a: 'ShazamIphone', word_b: 'ShazamAndroid' },
   { word_a: 'Famous Instagram SW', word_b: 'Famous Instagram' },
